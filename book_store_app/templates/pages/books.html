@@ -8,7 +8,8 @@
   <textarea id='newDescription'></textarea>
   <label>price:</label>
   <input id='newPrice' type="number" step="any"  />
-  <select id='author' class="form-select" aria-label="Default select example">
+  <label>Author</label>
+  <select id='author' class="form-select" aria-label="Default select example" style="width:25vw;">
     {% for author in authors %}
     <option value="{{author.first_name}} {{author.last_name}}">{{author.first_name}} {{author.last_name}}</option>
     {% endfor %}

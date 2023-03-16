@@ -10,5 +10,5 @@ class Book(models.Model):
     title = models.CharField(max_length=250)
     description = models.TextField()
     price = models.FloatField()
-    author =  models.ForeignKey(Author, on_delete=models.CASCADE)
+    author =  models.ForeignKey(Author, on_delete=models.SET_NULL, null=True)
     
