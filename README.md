@@ -13,8 +13,8 @@ We will create a Django application with a PostgrSQL database that will allow us
 -   Template Rendering 
     -   Extends method
     -   Static tags
-    -   Axios
-    -   BootStrap
+    -   [Axios](https://axios-http.com/docs/intro)
+    -   [BootStrap](https://getbootstrap.com)
 -   Django ORM
     -   Creating class based models
     -   Loading Data
