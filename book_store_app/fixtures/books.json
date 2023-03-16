@@ -1,0 +1,42 @@
+[
+    {
+        "model":"book_store_app.Book",
+        "pk":1,
+        "fields":{
+            "title":"Book1",
+            "description": "Description for book 2",
+            "price": 13.05,
+            "author": 1
+        }
+    },
+    {
+        "model":"book_store_app.Book",
+        "pk":2,
+        "fields":{
+            "title":"Book2",
+            "description": "Description for book 2",
+            "price": 12.05,
+            "author": 1
+        }
+    },
+    {
+        "model":"book_store_app.Book",
+        "pk":3,
+        "fields":{
+            "title":"Book3",
+            "description": "Description for book 3",
+            "price": 11.05,
+            "author": 2
+        }
+    },
+    {
+        "model":"book_store_app.Book",
+        "pk":4,
+        "fields":{
+            "title":"Book4",
+            "description": "Description for book 4",
+            "price": 14.05,
+            "author": 2
+        }
+    }
+]

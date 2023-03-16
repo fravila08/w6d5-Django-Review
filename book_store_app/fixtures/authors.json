@@ -1,0 +1,18 @@
+[
+    {
+        "model": "book_store_app.Author",
+        "pk": 1, 
+        "fields": {
+            "first_name": "Jon", 
+            "last_name": "last"
+        }
+    },
+    {
+        "model": "book_store_app.Author",
+        "pk": 2, 
+        "fields": {
+            "first_name": "Alpha", 
+            "last_name": "last"
+        }
+    }
+]
